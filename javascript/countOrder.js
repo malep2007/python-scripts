@@ -1,15 +1,25 @@
 // Some javascript implementation of some problem
 // take an array [1,1,3,4,1] return number not in right position
 
-function correctOrder(inputValues){
-  sorted = inputValues.sort();
-  count = 0;
-	for(let i = 0; i < inputValues.length; i++){
-    if(inputValues[i] !== sorted[i]){
-      count += 1;
-    }
-  }
-  return count;
+/*
+Input 1:
+4
+5
+10100
+10111
+11111
+10010
+
+Output: 6
+*/
+
+function returnArea(height, width){
+  input_array = [[1,0,1,0,0]]
 }
 
-console.log(correctOrder([1,1,3,4,1]));
+function sum(n) {
+  if(n <== 0){
+    return 0;
+  }
+  return n + sum(n -1);
+}
